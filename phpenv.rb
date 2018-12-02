@@ -15,7 +15,7 @@ class Phpenv < Formula
     end
   end
 
-  def caveats; <<-EOS.undent
+  def caveats; <<-EOS
     To use Homebrew's directories rather than ~/.phpenv add to your profile:
       export PHPENV_ROOT=#{var}/phpenv
     To enable shims and autocompletion add to your profile:
