@@ -1,8 +1,8 @@
 class Phpenv < Formula
   desc "PHP multi-version installation and management for humans."
   homepage "https://github.com/kadaan/phpenv"
-  url "https://github.com/kadaan/phpenv.git", :tag => "0.0.5"
-  version "0.0.5"
+  url "https://github.com/kadaan/phpenv.git", :tag => "0.0.6"
+  version "0.0.6"
   head "https://github.com/kadaan/phpenv.git"
 
   bottle :unneeded
